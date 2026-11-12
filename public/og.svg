@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="pink" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FF007F" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#FF007F" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="violet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#7928CA" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#7928CA" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="green" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#2D5A27" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#2D5A27" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF007F" />
+      <stop offset="50%" stop-color="#7928CA" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M 64 0 L 0 0 0 64" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="#070709" />
+  <rect width="1200" height="630" fill="url(#grid)" />
+  <circle cx="120" cy="80" r="420" fill="url(#pink)" />
+  <circle cx="980" cy="160" r="380" fill="url(#violet)" />
+  <circle cx="1080" cy="620" r="360" fill="url(#green)" />
+
+  <rect x="64" y="64" width="1072" height="502" rx="28" fill="#FFFFFF" fill-opacity="0.03" stroke="#FFFFFF" stroke-opacity="0.1" />
+
+  <text x="108" y="140" fill="#9B9BAA" font-family="'JetBrains Mono', monospace" font-size="17" letter-spacing="4">RISTE.DEV / PERSONAL PORTAL</text>
+  <text x="108" y="290" fill="#F4F4F7" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="86" font-weight="800" letter-spacing="-4">Riste Gjorgjiev</text>
+  <text x="108" y="348" fill="#C9C9D4" font-family="'Inter', sans-serif" font-size="27">Computer Science Engineer · Event &amp; Wildlife Photographer</text>
+  <rect x="108" y="394" width="520" height="2" fill="url(#line)" />
+  <text x="108" y="458" fill="#FF8BC4" font-family="'JetBrains Mono', monospace" font-size="20" letter-spacing="2">PHOTOGRAPHY — BY NIGHT &amp; BY DAY</text>
+  <text x="108" y="508" fill="#A2A2B0" font-family="'JetBrains Mono', monospace" font-size="16" letter-spacing="2">SKOPJE, MK · 41.9981° N · 21.4254° E</text>
+
+  <circle cx="1000" cy="280" r="78" fill="none" stroke="url(#line)" stroke-width="2" />
+  <text x="1000" y="296" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="42" font-weight="700">RG</text>
+</svg>
